@@ -1,0 +1,54 @@
+body {
+  /* 爱心跳动,抖音ID:不吃蟹黄 作品参考bootstrapmb,引入three基于canvas制作 */
+  /* background: rgb(0, 0, 0); */
+  overflow: hidden;
+  margin: 0;
+  background-color: #ff1e7c;
+
+  background: linear-gradient(rgba(255, 255, 255, 0.77), rgba(255, 39, 125, 0.84)), url('./img/background.jpg');
+
+  
+}
+
+canvas {
+  background: transparent !important;
+  display: block;   /* canvas को पूरे स्क्रीन पर फैलाने के लिए */
+}
+
+
+.title {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-shadow: 0 0 20px white;
+  text-shadow: 0 0 20px white;
+  letter-spacing: 4px;
+  padding-bottom: 67px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #29181d;
+}
+
+
+
+#copy {
+  position: fixed;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+}
+
+#copy a {
+  text-decoration: none;
+  color: #191919d7;
+}
+
+  #copy p {
+  color: #fff6f9;
+  text-align: center;
+  font-weight: 700;
+  cursor: pointer;
+  }
